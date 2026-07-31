@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan de Higiene y Seguridad</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --bg-color: #f8f9fa;
+            --text-color: #333;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            font-size: 2.2rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Estilos para el Cuadro Sinóptico simulado */
+        .synoptic-tree, .synoptic-tree ul {
+            list-style-type: none;
+        }
+        
+        .synoptic-tree {
+            padding-left: 0;
+        }
+
+        .synoptic-tree > li {
+            font-size: 1.1rem;
+        }
+
+        .synoptic-tree ul {
+            padding-left: 1.5rem;
+            margin-top: 0.5rem;
+            position: relative;
+        }
+
+        .synoptic-tree ul::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 2px;
+            background-color: var(--secondary-color);
+        }
+
+        .synoptic-tree li {
+            margin-bottom: 0.8rem;
+            position: relative;
+        }
+        
+        .synoptic-tree ul li {
+            padding-left: 1rem;
+        }
+
+        .synoptic-tree ul li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 12px;
+            width: 12px;
+            height: 2px;
+            background-color: var(--secondary-color);
+        }
+
+        .node-title {
+            font-weight: bold;
+            color: var(--primary-color);
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+        
+        .main-title {
+            font-size: 1.4rem;
+            color: #e74c3c;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+
+        /* Estilos para el Cuestionario */
+        .qa-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .question {
+            font-weight: 600;
+            color: var(--secondary-color);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .answer {
+            background-color: #f1f8ff;
+            padding: 1rem;
+            border-left: 4px solid var(--secondary-color);
+            border-radius: 0 4px 4px 0;
+        }
+
+        .footer {
+            margin-top: 4rem;
+            text-align: center;
+            padding-top: 1.5rem;
+            border-top: 1px solid #eee;
+            color: #7f8c8d;
+        }
+
+        .author {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            display: block;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Plan de Higiene y Seguridad en la Empresa</h1>
+
+        <h2>Cuadro Sinóptico</h2>
+        <ul class="synoptic-tree">
+            <li>
+                <span class="node-title main-title">Plan de Prevención de Riesgos Laborales</span>
+                <ul>
+                    <li>
+                        <span class="node-title">1. Política de Seguridad y Salud</span>
+                        <ul>
+                            <li>Declaración de principios (Objetivos de bienestar)</li>
+                            <li>Compromiso de cumplimiento (Leyes y normativas)</li>
+                            <li>Asignación de recursos (Presupuesto y personal)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="node-title">2. Identificación de Peligros (IPERC)</span>
+                        <ul>
+                            <li>Mapa de riesgos (Áreas y procesos peligrosos)</li>
+                            <li>Evaluación de puestos (Condiciones ambientales, biomecánicas, etc.)</li>
+                            <li>Matriz de valoración (Probabilidad y gravedad)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="node-title">3. Medidas Preventivas y Correctivas</span>
+                        <ul>
+                            <li>Mantenimiento preventivo (Inspecciones a maquinaria)</li>
+                            <li>Higiene industrial (Calidad del aire, ruido, ergonomía)</li>
+                            <li>Equipos de Protección Personal o EPP (Indumentaria necesaria)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="node-title">4. Capacitación y Adiestramiento</span>
+                        <ul>
+                            <li>Inducción (Nuevos ingresos)</li>
+                            <li>Capacitaciones continuas (Uso de EPP, manejo de sustancias)</li>
+                            <li>Cultura de prevención (Concientización)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="node-title">5. Medicina del Trabajo</span>
+                        <ul>
+                            <li>Exámenes médicos (Ingreso, periódicos, egreso)</li>
+                            <li>Historiales clínicos ocupacionales (Registro confidencial)</li>
+                            <li>Programas de salud (Pausas activas, apoyo psicológico)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="node-title">6. Plan de Emergencias y Contingencias</span>
+                        <ul>
+                            <li>Conformación de brigadas (Primeros auxilios, rescate)</li>
+                            <li>Rutas de evacuación (Planos y señalización)</li>
+                            <li>Simulacros (Ejercicios periódicos)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="node-title">7. Investigación de Accidentes</span>
+                        <ul>
+                            <li>Protocolo de reporte (Comunicación inmediata)</li>
+                            <li>Análisis de causa raíz (Metodologías para entender fallas)</li>
+                            <li>Acciones correctivas (Modificación de procesos)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="node-title">8. Auditoría e Inspección</span>
+                        <ul>
+                            <li>Comité Paritario (Representantes de empleados y empleadores)</li>
+                            <li>Inspecciones planeadas (Revisiones de rutina)</li>
+                            <li>Indicadores de gestión / KPIs (Medición de incidentes y horas de capacitación)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Cuestionario</h2>
+        <div class="qa-container">
+            <div>
+                <div class="question">1. ¿En qué consiste el componente de "Política de Seguridad y Salud en el Trabajo"?</div>
+                <div class="answer">Consiste en el compromiso formal de la alta dirección con la prevención de riesgos, e incluye una declaración de principios, el compromiso de cumplir las normativas vigentes y la garantía de asignación de recursos para ejecutar el plan.</div>
+            </div>
+            
+            <div>
+                <div class="question">2. ¿Qué significa IPERC y cuáles son sus herramientas principales?</div>
+                <div class="answer">Significa Identificación de Peligros y Evaluación de Riesgos. Es el diagnóstico de la empresa y utiliza herramientas como el mapa de riesgos, la evaluación de puestos de trabajo y la matriz de valoración para clasificar los riesgos.</div>
+            </div>
+
+            <div>
+                <div class="question">3. Según el Plan de Medidas Preventivas, ¿qué aspectos abarca la "Higiene industrial"?</div>
+                <div class="answer">Abarca el control de la calidad del aire, la ventilación, la ergonomía de los puestos de trabajo y los niveles de radiación o ruido dentro de la empresa.</div>
+            </div>
+
+            <div>
+                <div class="question">4. ¿Qué acciones se deben implementar dentro de un "Plan de Emergencias y Contingencias" para preparar a la empresa ante desastres?</div>
+                <div class="answer">Se debe contemplar la conformación de brigadas de primeros auxilios y rescate, establecer rutas de evacuación y señalización claras, y realizar simulacros de forma periódica para evaluar los tiempos de respuesta.</div>
+            </div>
+
+            <div>
+                <div class="question">5. ¿Cuál es el propósito de realizar una "Investigación de Accidentes e Incidentes" y qué métodos se pueden utilizar?</div>
+                <div class="answer">El propósito es crear un procedimiento sistemático para aprender de los errores y evitar que se repitan. Para lograrlo, se utilizan metodologías de análisis de causa raíz, tales como los "5 Porqués" o el "Árbol de Causas", con el fin de entender qué falló y aplicar acciones correctivas.</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Elaborado por:
+            <span class="author">Michael Antonio Rodriguez Condega</span>
+        </div>
+    </div>
+</body>
+</html>
